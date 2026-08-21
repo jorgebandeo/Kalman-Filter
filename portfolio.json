@@ -1,0 +1,12 @@
+{
+  "$schema": "https://jorgebandeo.github.io/Portfolio/schema/project-v1.schema.json",
+  "schemaVersion": 1,
+  "project": {"id":"kernel-filter","name":"Comparação de Filtros Adaptativos e Kalman","subtitle":"LMS, KLMS, Kalman e KFxLMS aplicados a sinais ruidosos","status":"research"},
+  "categories":["software","research"],
+  "technologies":["Python","DSP","LMS","KLMS","Kalman","KFxLMS"],
+  "summary":"Projeto de análise comparativa entre filtros LMS, KLMS, Kalman e KFxLMS, avaliando erro quadrático médio, convergência e custo computacional em sinais ruidosos, com discussão de aplicação em sistemas de estabilização.",
+  "highlights":["Comparação de MSE","Análise de convergência","Medição de tempo de execução","Filtros kernelizados","Filtro de Kalman"],
+  "media":{"gallery":[{"type":"image","src":"resultados_comparativosY.png","caption":"Comparação dos sinais filtrados e MSE"},{"type":"image","src":"resultado de tempo do comparativo .png","caption":"Comparação de tempo de execução"}]},
+  "links":{"repository":"https://github.com/jorgebandeo/Kernel-Filter"},
+  "portfolio":{"visible":true,"featured":true,"order":50}
+}
