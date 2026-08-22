@@ -1,12 +1,9 @@
 {
-  "$schema": "https://jorgebandeo.github.io/Portfolio/schema/project-v1.schema.json",
-  "schemaVersion": 1,
-  "project": {"id":"kernel-filter","name":"Comparação de Filtros Adaptativos e Kalman","subtitle":"LMS, KLMS, Kalman e KFxLMS aplicados a sinais ruidosos","status":"research"},
-  "categories":["software","research"],
-  "technologies":["Python","DSP","LMS","KLMS","Kalman","KFxLMS"],
+  "$schema":"https://jorgebandeo.github.io/Portfolio/schema/project-v1.schema.json","schemaVersion":1,
+  "project":{"id":"kernel-filter","name":"Comparação de Filtros Adaptativos e Kalman","subtitle":"LMS, KLMS, Kalman e KFxLMS aplicados a sinais ruidosos","status":"research"},
+  "categories":["software","research"],"technologies":["Python","DSP","LMS","KLMS","Kalman","KFxLMS"],
   "summary":"Projeto de análise comparativa entre filtros LMS, KLMS, Kalman e KFxLMS, avaliando erro quadrático médio, convergência e custo computacional em sinais ruidosos, com discussão de aplicação em sistemas de estabilização.",
   "highlights":["Comparação de MSE","Análise de convergência","Medição de tempo de execução","Filtros kernelizados","Filtro de Kalman"],
-  "media":{"gallery":[{"type":"image","src":"resultados_comparativosY.png","caption":"Comparação dos sinais filtrados e MSE"},{"type":"image","src":"resultado de tempo do comparativo .png","caption":"Comparação de tempo de execução"}]},
-  "links":{"repository":"https://github.com/jorgebandeo/Kernel-Filter"},
-  "portfolio":{"visible":true,"featured":true,"order":50}
+  "caseStudy":{"title":"Comparação experimental de estratégias de filtragem","intro":"O projeto explora abordagens lineares, kernelizadas e baseadas em estimação de estado para observar como diferentes filtros respondem a sinais contaminados por ruído.","objective":"Comparar qualidade de filtragem e custo computacional usando métricas e visualizações comuns, permitindo observar vantagens e limitações de LMS, KLMS, Kalman e KFxLMS.","implementation":"Os algoritmos são executados sobre sinais de teste e seus resultados são comparados por erro quadrático médio, comportamento de convergência e tempo de execução. O repositório preserva imagens com os sinais/resultados e medições comparativas.","architecture":"Sinal de referência + ruído → execução independente de cada filtro → cálculo de erro/MSE → medição de tempo → comparação gráfica dos resultados.","progress":"O trabalho está estruturado como estudo comparativo e registra resultados gráficos das abordagens implementadas, adequado para análise acadêmica de desempenho e comportamento dos filtros.","materials":["Python","Sinais de teste","LMS","KLMS","Filtro de Kalman","KFxLMS","Métricas de MSE","Medição de tempo de execução"],"results":["Comparação visual dos sinais filtrados","Comparação de erro quadrático médio","Análise de convergência","Comparação de custo temporal entre algoritmos"]},
+  "media":{"gallery":[{"type":"image","src":"resultados_comparativosY.png","caption":"Comparação dos sinais filtrados e MSE"},{"type":"image","src":"resultado de tempo do comparativo .png","caption":"Comparação de tempo de execução"}]},"links":{"repository":"https://github.com/jorgebandeo/Kernel-Filter"},"portfolio":{"visible":true,"featured":true,"order":50}
 }
